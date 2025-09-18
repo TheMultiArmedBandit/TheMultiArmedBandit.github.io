@@ -1,22 +1,38 @@
 title: "The Multi-Armed Bandit 🎰"
-author: "Bandit"
-email: bandit@tbd.com
+author: 
+  name: "Bandit"
+  email: bandit@tbd.com
+
 description: "All hail Herbert Robbins!"
 
 # Use the latest Minima directly from GitHub
 remote_theme: jekyll/minima
 
-# Enable future plugins if needed
 plugins:
-  - jekyll-remote-theme  # This might need GitHub Actions
+  - jekyll-remote-theme  
   - jekyll-feed
   - jekyll-seo-tag
 
 # Minima configuration (this will work with remote_theme)
 minima:
+  # Minima skin selection. Available skins are:
+  #   Available skins:
+  #     * classic            Default, light color scheme.
+  #     * dark               Dark variant of the classic skin.
+  #     * auto               Adaptive skin based on the default classic and dark skins.
+  #     * solarized-light    Light variant of solarized color scheme.
+  #     * solarized-dark     Dark variant of solarized color scheme.
+  #     * solarized          Adaptive skin for solarized color scheme skins.
   skin: dark
+
+  # Specific pages for site navigation.
+  nav_pages:
+    - about.md
+
+  # Set to `true` to show excerpts on the homepage.
+  show_excerpts: false
+    
+  # Social Media Links
   social_links:
     - { title: "GitHub", icon: "github", url: "https://github.com/TheMultiArmedBandit" }
     - { title: "Telegram", icon: "telegram", url: "https://t.me/TheMultiArmedBandit" }
-  nav_pages:
-    - about.md
