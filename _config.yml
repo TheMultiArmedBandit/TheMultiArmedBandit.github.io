@@ -1,0 +1,22 @@
+title: "The Multi-Armed Bandit 🎰"
+author: "Bandit"
+email: bandit@tbd.com
+description: "All hail Herbert Robbins!"
+
+# Use the latest Minima directly from GitHub
+remote_theme: jekyll/minima
+
+# Enable future plugins if needed
+plugins:
+  - jekyll-remote-theme  # This might need GitHub Actions
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima configuration (this will work with remote_theme)
+minima:
+  skin: dark
+  social_links:
+    - { title: "GitHub", icon: "github", url: "https://github.com/TheMultiArmedBandit" }
+    - { title: "Telegram", icon: "telegram", url: "https://t.me/TheMultiArmedBandit" }
+  nav_pages:
+    - about.md
